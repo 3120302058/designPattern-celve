@@ -7,7 +7,6 @@ OBJS = strategy.o \
 
 CXXFLAGS = -D MYDEBUG \
 		  -g \
-		  -Wall -O2 \
 
 $(TARGET) : $(OBJS)
 	$(CXX) $(OBJS) -o app
