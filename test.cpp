@@ -8,9 +8,6 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-#ifdef MYDEBUG
-	cout << "g++ -D debug..." << endl;
-#endif		
 	Strategy *ps = new ConcreteStrategyA();
 	Context *pc = new Context(ps);	
 	pc->doAction();
