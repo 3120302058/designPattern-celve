@@ -4,7 +4,7 @@
  * data:10/11/2020
  * description:test for celv design pattern
  * other:none
- *
+ *xxxxxxxxxxxxxxxxxxxxxxxxxxxx
  */
 #include "strategy.h"
 #include "context.h"
