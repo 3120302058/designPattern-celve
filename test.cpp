@@ -7,6 +7,11 @@
 
 using namespace std;
 
+void callNewInterface()
+{
+	return;
+}
+
 int main(int argc, char *argv[]){
 	Strategy *ps = new ConcreteStrategyA();
 	Context *pc = new Context(ps);	
