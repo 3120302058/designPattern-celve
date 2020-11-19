@@ -18,3 +18,4 @@ void NewInterfaceToCall()
 {
 	//...
 }
+void 123();
