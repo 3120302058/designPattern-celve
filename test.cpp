@@ -14,5 +14,9 @@ int main(int argc, char *argv[]){
 	if(NULL != pc){
 		delete pc;
 	}
+	
+	//call new interface
+	callNewInterface();
+	
 	return 0;		
 }
